@@ -14,19 +14,6 @@ Before starting, ensure the following are installed:
 
 ---
 
-## Clone the Repository
-
-Clone the backend repository using SSH:
-
-```bash
-git clone git@github.com:Mohammadhoseinajorloo/aestock-aircraft-port-backend.git
-cd aestock-aircraft-port-backend
-```
-
-> Update the repository URL if the backend repository is transferred to the `AirPart` GitHub organization.
-
----
-
 ## Create a Virtual Environment
 
 Create an isolated Python environment for the project.

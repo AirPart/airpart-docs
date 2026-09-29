@@ -26,13 +26,13 @@ docs/
 
 ### Development
 
-- [Git Workflow](docs/development/git-workflow.md)
-- [Dependency Management](docs/development/dependency-management.md)
+- [Git Workflow](./development/git-strategy.md)
+- [Dependency Management](./development/dependency-management.md)
 
 ### Backend
 
-- [Backend Setup](docs/backend/setup.md)
-- [Environment Variables](docs/backend/environment-variables.md)
+- [Backend Setup](./backend/setup.md)
+- [Environment Variables](./backend/environment-variables.md)
 
 ---
 

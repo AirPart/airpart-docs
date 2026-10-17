@@ -1,3 +1,8 @@
+---
+title: Dependency Management
+description: Rules and guidelines for adding, updating, and pinning packages.
+---
+
 # Dependency Management
 
 This document explains how Python dependencies are managed in AirPart backend projects.

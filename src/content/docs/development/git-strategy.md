@@ -1,3 +1,8 @@
+---
+title: Git strategy & Branching
+description: Team Git workflow, branching conventions, and release lifecycle.
+---
+
 # Git Workflow & Branching Strategy
 
 This document outlines the standard Git workflow and branching strategy for the AirPart organization. All developers are expected to follow these guidelines to maintain a clean project history and smooth integration process.

@@ -1,3 +1,8 @@
+---
+title: Backend setup & installation
+descriptions: Comprehensive guide to setting up and running the Airpart backand service locally.
+---
+
 # Backend Setup
 
 This guide explains how to set up the AirPart backend locally for development.

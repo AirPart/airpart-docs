@@ -1,50 +1,49 @@
-# AirPart Documentation
+# Starlight Starter Kit: Basics
 
-Central documentation and knowledge base for the AirPart project.
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-This repository contains shared technical documentation, development standards,
-architecture notes, and operational guides for AirPart services.
-
----
-
-## Repository Structure
-
-```text
-docs/
-├── backend/            # Backend-specific documentation
-├── development/        # Shared development guides and standards
-├── architecture/       # System architecture documentation
-├── frontend/           # Frontend-specific documentation
-├── deployment/         # Deployment guides
-├── operations/         # Operations and maintenance guides
-└── decisions/          # Architecture Decision Records (ADRs)
+```
+npm create astro@latest -- --template starlight
 ```
 
----
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## Available Documentation
+## 🚀 Project Structure
 
-### Development
+Inside of your Astro + Starlight project, you'll see the following folders and files:
 
-- [Git Workflow](./development/git-strategy.md)
-- [Dependency Management](./development/dependency-management.md)
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   └── docs/
+│   └── content.config.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
+```
 
-### Backend
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-- [Backend Setup](./backend/setup.md)
-- [Environment Variables](./backend/environment-variables.md)
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
----
+Static assets, like favicons, can be placed in the `public/` directory.
 
-## Documentation Principles
+## 🧞 Commands
 
-- Documentation is maintained as code and reviewed through Pull Requests.
-- Keep documentation clear, up to date, and close to the related implementation.
-- Do not store secrets, credentials, production URLs, or sensitive operational information in this repository.
-- Track tasks, bugs, and feature requests in GitHub Issues and GitHub Projects—not in documentation TODO lists.
+All commands are run from the root of the project, from a terminal:
 
----
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## Related Repositories
+## 👀 Want to learn more?
 
-- [AirPart Backend](https://github.com/AirPart/airpart-backend.git)
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).

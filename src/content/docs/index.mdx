@@ -1,0 +1,61 @@
+---
+title: AirPart Engineering Docs
+description: Central knowledge base, architectural guidelines, and engineering workflows for AirPart.
+template: splash
+hero:
+  tagline: Centralized technical reference, onboarding guides, and engineering standards for building and scaling AirPart services.
+  actions:
+    - text: Backend Quickstart
+      link: /backend/setup/
+      icon: right-arrow
+      variant: primary
+    - text: Git Strategy & Standards
+      link: /development/git-strategy/
+      icon: external
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Explore by Domain
+
+<CardGrid stagger>
+  <Card title="Backend Services" icon="setting">
+    Learn how to configure environments, run local instances, manage dependencies with `pip-tools`, and execute backend test suites.
+    
+    [Go to Backend Setup &rarr;](/backend/setup/)
+  </Card>
+
+  <Card title="Development Workflows" icon="laptop">
+    Understand branch protection rules, the Conventional Commits specification, PR review criteria, and pre-commit hooks.
+    
+    [Read Git Strategy &rarr;](/development/git-strategy/)
+  </Card>
+
+  <Card title="Configuration & Secrets" icon="pencil">
+    Central reference for environment variables, local overrides, and secrets management across testing and production.
+    
+    [View Env Variables &rarr;](/backend/environment-variables/)
+  </Card>
+
+  <Card title="Dependency Management" icon="open-book">
+    Standards for maintaining deterministic Python builds using `requirements.in` and compiled lock files.
+    
+    [Manage Dependencies &rarr;](/development/dependency-management/)
+  </Card>
+</CardGrid>
+
+---
+
+## Engineering Principles
+
+- **Docs as Code:** Documentation lives in version control, evolves alongside implementation, and passes peer review in Pull Requests.
+- **Zero Secrets Policy:** Never commit sensitive tokens, `.env` files, or production credentials to any repository.
+- **Reproducible Environments:** Lock dependencies, enforce linter checks, and validate builds via continuous integration prior to merging.
+
+---
+
+## Repositories & Resources
+
+- [AirPart Backend Repository](https://github.com/AirPart/airpart-backend)
+- [Team Issue Tracker & Projects](https://github.com/orgs/AirPart/projects)

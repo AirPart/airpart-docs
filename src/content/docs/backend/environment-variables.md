@@ -1,3 +1,8 @@
+---
+title: Environment variables
+description: List of all environment variables, secrets, and configuration required for the backend
+---
+
 # Backend Environment Variables
 
 This document serves as the central reference for all environment configuration required by the AirPart backend service.

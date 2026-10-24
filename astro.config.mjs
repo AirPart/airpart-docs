@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://AirPart.github.io",
-  base: "/airpart-docs",
+  base: process.env.GITHUB_ACTIONS ? "/airpart-docs" : "/",
   integrations: [
     starlight({
       title: "AirPart Docs",
